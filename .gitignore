@@ -1,0 +1,85 @@
+# ==========================================
+# Java & Maven Compiled Output
+# ==========================================
+target/
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Logs & Databases
+# ==========================================
+*.log
+logs/
+**/logs/
+*.sqlite
+*.h2.db
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+**/.idea/
+*.iml
+*.iws
+*.ipr
+out/
+**/out/
+
+# ==========================================
+# Eclipse
+# ==========================================
+.classpath
+.project
+.settings/
+bin/
+**/bin/
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+.vscode/
+**/.vscode/
+
+# ==========================================
+# OS & System Files
+# ==========================================
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Secrets & Environment Variables
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.crt
+
+# ==========================================
+# Docker & Temp Files
+# ==========================================
+.docker/
+tmp/
+**/tmp/
